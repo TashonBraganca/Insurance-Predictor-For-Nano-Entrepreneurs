@@ -128,7 +128,7 @@
           <!-- Children Input -->
           <div class="input-field col s4">
             <label for="children" style="font-size: 20px"><b>Children</b></label>
-            <input placeholder="0 for None" id="children" name="children" type="text" class="validate" required>
+            <input placeholder="0 for None" id="children" name="children" type="number" min="0" class="validate" required>
           </div>
 
           <!-- Smoker Dropdown -->
@@ -158,9 +158,7 @@
           <button type="submit" class="btn-large waves-effect waves-light">Predict Probability</button>
         </div>
 
-        <!-- Hidden Inputs -->
-        <input type="hidden" id="feature7" name="feature7" value="0">
-        <input type="hidden" id="feature8" name="feature8" value="0">
+        
       </form>
     </div>
   </div>
